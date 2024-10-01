@@ -9,7 +9,7 @@ export function Post() {
             className={styles.avatar}
             src="https://github.com/JpSoares17.png"
           />
-          <div>
+          <div className={styles.authorInfo}>
             <strong>Jotinha Back-End</strong>
             <span>A.I. Developer</span>
           </div>
@@ -24,7 +24,9 @@ export function Post() {
       </header>
 
       <div className={styles.content}>
-        <p>Conteúdo da minha parada vai ficar por aquiii</p>
+        <p>
+          Conteúdo da minha <a href="#">parada</a> vai ficar por aquiii
+        </p>
       </div>
     </article>
   );
